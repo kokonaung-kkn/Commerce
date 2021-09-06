@@ -20,7 +20,7 @@ if($users){
                 header('location: order.php');
             }
             else{
-                HTTP::redirect("/home.php");
+                HTTP::redirect("/index.php");
             }
         }
         else{
