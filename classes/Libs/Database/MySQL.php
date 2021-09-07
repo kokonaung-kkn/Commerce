@@ -8,9 +8,9 @@ use PDOException;
 class MySQL{
     public function __construct(
         private $host = "localhost",
-        private $dbname = "ecommerce",
-        private $username = "root",
-        private $password = "",
+        private $dbname = "id17549914_commerce",
+        private $username = "id17549914_kkn",
+        private $password = "!8(eA0m4!x(+$(XR",
         private $db = null
     ){}
 
