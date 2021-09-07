@@ -1,6 +1,6 @@
 <?php
 
-include('../vendor/autoload.php');
+include('vendor/autoload.php');
 
 use Libs\Database\ProductTable;
 use Libs\Database\MySQL;
