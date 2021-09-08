@@ -16,7 +16,7 @@ if($users){
     foreach($users as $user){
         if(password_verify($psw,$user->password)){
             $_SESSION['user'] = $user;
-            if($_SESSION['checkout']){
+            if(isset($_SESSION['checkout'])){
                 header('location: order.php');
             }
             else{

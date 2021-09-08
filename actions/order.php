@@ -21,10 +21,14 @@ foreach($_SESSION as $product){
             'amount' => $product[2],
             'total' => $product[2] * $product[3],
         ];
-        $table->orderline($orderline);
+        $row = $table->orderline($orderline);
     }
     else{
         continue;
     }
 }
-HTTP::redirect('/shipping.php');
+if(isset($row)){
+    HTTP::redirect('/shipping.php');
+}else{
+    HTTP::redirect('/men.php');
+}
