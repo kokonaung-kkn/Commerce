@@ -25,7 +25,7 @@
     <!-- --------------------- Google Font ---------------------- -->
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <!-- --------------------- style.css ------------------------ -->
-    <link rel="stylesheet" href="../css/sign1.css">
+    <link rel="stylesheet" href="../css/sign.css">
 </head>
 <body>
     
