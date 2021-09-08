@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(isset($_SESSION['user'])){
-        header('location: ../actions/order.php');
+        header('location: actions/order.php');
     }
     else{
         if(isset($_POST['checkout'])){   
