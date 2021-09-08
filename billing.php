@@ -6,7 +6,6 @@ use Helpers\Auth;
 
 Auth::check();
 
-session_destroy();
 ?>
 
 <!DOCTYPE html>
@@ -67,7 +66,7 @@ session_destroy();
                 </div>
             </div>
         </div>
-        <form action="#">
+        <form action="success.php" method='post'>
             <div class="row">
                 <div class="col-lg-6 col-md-6 ship-padding">
                     <div class="info-head mb-4">
@@ -152,7 +151,7 @@ session_destroy();
             <div class="row mb-5">
                 <div class="col-12">
                     <div class="order-btn">
-                        <button>Place Order</button>
+                        <button name='order' value='order'>Place Order</button>
                     </div>
                 </div>
             </div>

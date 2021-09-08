@@ -1342,7 +1342,14 @@ Men Page
 .upper:hover ~ .product-name{   
     transform: translateX(0px);
 }
-
+.order-confirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-confirm .order{
+    width: 300px;
+}
 
 
 
