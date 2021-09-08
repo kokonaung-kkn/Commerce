@@ -12,10 +12,10 @@
     <!-- --------------------- Google Font ---------------------- -->
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <!-- --------------------- Slick Css ---------------------- -->
-    <link rel="stylesheet" href="../css/slick.css">
-    <link rel="stylesheet" href="../css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <!-- --------------------- style.css ------------------------ -->
-    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
@@ -27,24 +27,24 @@
     <main>
         <div class="container">
             <div class="slider demo d-lg-block d-md-block d-sm-none d-none">
-                <div><img src="../image/cr.jpg" class='wp' alt=""></div>
-                <div><img src="../image/w1.jpg" class='wp' alt=""></div>
-                <div><img src="../image/w2.jpg" class='wp' alt=""></div>
-                <div><img src="../image/w3.jpg" class='wp' alt=""></div>
-                <div><img src="../image/w4.jpg" class='wp' alt=""></div> 
-                <div><img src="../image/cr7.jpg" class='wp' alt=""></div>
+                <div><img src="image/cr.jpg" class='wp' alt=""></div>
+                <div><img src="image/w1.jpg" class='wp' alt=""></div>
+                <div><img src="image/w2.jpg" class='wp' alt=""></div>
+                <div><img src="image/w3.jpg" class='wp' alt=""></div>
+                <div><img src="image/w4.jpg" class='wp' alt=""></div> 
+                <div><img src="image/cr7.jpg" class='wp' alt=""></div>
             </div>
             <div class="slider demo d-lg-none d-md-none d-sm-block d-none">
-                <div><img src="../image/square11.jpg" class='wp' alt=""></div>
-                <div><img src="../image/square12.jpg" class='wp' alt=""></div>
-                <div><img src="../image/square13.jpg" class='wp' alt=""></div>
-                <div><img src="../image/square14.jpg" class='wp' alt=""></div>
+                <div><img src="image/square11.jpg" class='wp' alt=""></div>
+                <div><img src="image/square12.jpg" class='wp' alt=""></div>
+                <div><img src="image/square13.jpg" class='wp' alt=""></div>
+                <div><img src="image/square14.jpg" class='wp' alt=""></div>
             </div>
             <div class="slider demo d-lg-none d-md-none d-sm-none d-block">
-                <div><img src="../image/square1.jpg" class='wp' alt=""></div>
-                <div><img src="../image/square2.jpg" class='wp' alt=""></div>
-                <div><img src="../image/square3.jpg" class='wp' alt=""></div>
-                <div><img src="../image/square4.jpg" class='wp' alt=""></div>
+                <div><img src="image/square1.jpg" class='wp' alt=""></div>
+                <div><img src="image/square2.jpg" class='wp' alt=""></div>
+                <div><img src="image/square3.jpg" class='wp' alt=""></div>
+                <div><img src="image/square4.jpg" class='wp' alt=""></div>
             </div>
             <div class="pop-rn">
                 <div class='text'><h1>popular right now</h1></div>
@@ -59,26 +59,26 @@
             <div class="row mb-5 mt-5">
                 <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
                     <div class="type">
-                        <img src="../image/16.png" alt="">
+                        <img src="image/16.png" alt="">
                         <div class="name"><p>men shoes</p></div>
                     </div>    
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
                     <div class="type">
-                        <img src="../image/17.png" alt="">
+                        <img src="image/17.png" alt="">
                         <div class="name"><p>women shoes</p></div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
                     <div class="type">
-                        <img src="../image/47.png" alt="">
+                        <img src="image/47.png" alt="">
                         <div class="name"><p>socks</p></div>
                     </div>
                     
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
                     <div class="type">
-                        <img src="../image/43.png" alt="">
+                        <img src="image/43.png" alt="">
                         <div class="name"><p>guards</p></div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                     <div class="box">
                         <div class='wrap'>
                             <div class="img">
-                                <img src="../image/11.png" class='new-item' alt="">
+                                <img src="image/11.png" class='new-item' alt="">
                                 <span>$150</span>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                     <div class="box">
                         <div class='wrap'>
                             <div class="img">
-                                <img src="../image/12.png" class='new-item' alt="">
+                                <img src="image/12.png" class='new-item' alt="">
                                 <span>$150</span>
                             </div>
                         </div>
@@ -125,7 +125,7 @@
                     <div class="box">
                         <div class='wrap'>
                             <div class="img">
-                                <img src="../image/29.png" class='new-item' alt="">
+                                <img src="image/29.png" class='new-item' alt="">
                                 <span>$150</span>
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                     <div class="box">
                         <div class='wrap'>
                             <div class="img">
-                                <img src="../image/17.png" class='new-item' alt="">
+                                <img src="image/17.png" class='new-item' alt="">
                                 <span>$150</span>
                             </div>
                         </div>
@@ -155,7 +155,7 @@
                     <div class="box">
                         <div class='wrap'>
                             <div class="img">
-                                <img src="../image/29.png" class='new-item' alt="">
+                                <img src="image/29.png" class='new-item' alt="">
                                 <span>$150</span>
                             </div>
                         </div>
@@ -175,7 +175,7 @@
             <div class="row mt-3 mb-5">
                 <div class="col-lg-6 col-sm-6">
                     <div class="feature-img">
-                        <img src="../image/left.jpeg" alt="">
+                        <img src="image/left.jpeg" alt="">
                     </div>
                     <div class="feature-text">
                         <p>UP TO 35% OFF ADIDAS COLLECTION</p>
@@ -184,7 +184,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <div class="feature-img">
-                        <img src="../image/right.jpg" alt="">
+                        <img src="image/right.jpg" alt="">
                     </div>
                     <div class="feature-text">
                         <p>NIKE FUTURE LAB COLLECTION</p>
@@ -267,8 +267,8 @@
     <!-- --------------------- Boxicons ------------------------- -->
     <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
     <!-- --------------------- Slick Jquery -------------------------- -->
-    <script src="../js/slick.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <!-- --------------------- main.js -------------------------- -->
-    <script src="../js/main1.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

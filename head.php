@@ -11,8 +11,8 @@
         <div class="row">
             <div class="col-4">
                 <div class="logo ">
-                    <img src="../image/xtreme1.png" class='img' alt="XTREME">
-                    <img src="../image/kick.png" class='img1' alt="KICK">
+                    <img src="image/xtreme1.png" class='img' alt="XTREME">
+                    <img src="image/kick.png" class='img1' alt="KICK">
                 </div>
             </div>
             <div class="col-4">

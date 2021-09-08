@@ -12,7 +12,7 @@
     <!-- --------------------- Google Font ---------------------- -->
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <!-- --------------------- style.css ------------------------ -->
-    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -241,6 +241,6 @@
     <!-- --------------------- Boxicons ------------------------- -->
     <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
     <!-- --------------------- main.js -------------------------- -->
-    <script src="../js/main1.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

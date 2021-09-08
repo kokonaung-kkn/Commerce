@@ -23,7 +23,7 @@ if(isset($_SESSION['user'])){
     <!-- --------------------- Google Font ---------------------- -->
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <!-- --------------------- style.css ------------------------ -->
-    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
@@ -58,7 +58,7 @@ if(isset($_SESSION['user'])){
                                 <td>
                                     <div class="product">
                                         <span class="product-img me-3">
-                                            <img src="../image/<?= $products[0] ?>" alt="">
+                                            <img src="image/<?= $products[0] ?>" alt="">
                                             <input type="hidden" class='image' name="image" value="<?= $products[0] ?>">
                                         </span>
                                         <div class="product-desc">
@@ -137,7 +137,7 @@ if(isset($_SESSION['user'])){
     <!-- --------------------- Boxicons ------------------------- -->
     <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
     <!-- --------------------- main.js -------------------------- -->
-    <script src="../js/main1.js"></script>
+    <script src="js/main.js"></script>
     <script>
 
         $('.form-control').on("change",function(){
@@ -150,7 +150,7 @@ if(isset($_SESSION['user'])){
             action = "update";
 
             $.ajax({
-                url: "../actions/edit_cart.php",
+                url: "actions/edit_cart.php",
                 type: "POST",
                 data: {action:action,image:image,name:name,price:price,qty:qty,pid:pid},
                 success: function(){
@@ -164,7 +164,7 @@ if(isset($_SESSION['user'])){
             action = "delete";
 
             $.ajax({
-                url: "../actions/edit_cart.php",
+                url: "actions/edit_cart.php",
                 type: "POST",
                 data: {action:action,name:name},
                 success: function(){

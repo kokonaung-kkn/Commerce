@@ -25,7 +25,7 @@ $size = $product_table->size();
     <!-- --------------------- Google Font ---------------------- -->
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <!-- --------------------- style.css ------------------------ -->
-    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
@@ -199,7 +199,7 @@ $size = $product_table->size();
     <!-- --------------------- Boxicons ------------------------- -->
     <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
     <!-- --------------------- main.js -------------------------- -->
-    <script src="../js/main1.js"></script>
+    <script src="js/main.js"></script>
 
     <script>
         
@@ -214,7 +214,7 @@ $size = $product_table->size();
                 var color = get_data('color');
 
                 $.ajax({
-                    url: "../actions/kids_filter.php",
+                    url: "actions/kids_filter.php",
                     type: "POST",
                     data: {action:action,size:size,brand:brand,color:color},
                     success: function(data){

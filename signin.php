@@ -25,7 +25,7 @@
     <!-- --------------------- Google Font ---------------------- -->
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <!-- --------------------- style.css ------------------------ -->
-    <link rel="stylesheet" href="../css/sign.css">
+    <link rel="stylesheet" href="css/sign.css">
 </head>
 <body>
     
@@ -33,14 +33,14 @@
         <div class="left-side">
             <div class="logo">
                 <div class="xtreme">
-                    <img src="../image/xtreme1.png" alt="">
+                    <img src="image/xtreme1.png" alt="">
                 </div>
                 <div class="kick">
-                    <img src="../image/kick.png" alt="">
+                    <img src="image/kick.png" alt="">
                 </div>
             </div>
             <div class="img">
-                <img src="../image/login.jpg" alt="">
+                <img src="image/login.jpg" alt="">
             </div>
         </div>
         <div class="right-side">
@@ -48,7 +48,7 @@
                 <h1>Sign In</h1>
             </div>
             <div class="contents">
-                <form action="../actions/login.php" method="post">
+                <form action="actions/login.php" method="post">
                     <div class="input-box">
                         <input type="email" name='email' required>
                         <label>Email</label>
@@ -88,6 +88,6 @@
 
     <!-- --------------------- Jquery --------------------------- -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="../js/main1.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

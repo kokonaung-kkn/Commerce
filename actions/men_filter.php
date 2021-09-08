@@ -32,10 +32,10 @@ if(isset($_POST['action'])){
             $output .= '
                     <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
                         <div class="product-box">
-                            <form action="../actions/addCart.php" method="post">
+                            <form action="actions/addCart.php" method="post">
                                 <div class="upper">
                                     <div class="shoes">
-                                        <img src="../image/'.$row->image.'" alt="">
+                                        <img src="image/'.$row->image.'" alt="">
                                     </div>
                                 </div>
                                 <div class="product-name">
