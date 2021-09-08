@@ -296,13 +296,13 @@ body {
 
 @media(max-width: 765px){
     .container{
-        width: 450px;
+        width: 400px;
     }
     .left-side{
         display: none;
     }
     .right-side{
-        width: 450px;
+        width: 400px;
     }
     .others span{
         position: relative;
